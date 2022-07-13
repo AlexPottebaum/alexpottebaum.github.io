@@ -1,10 +1,9 @@
 /* Navigation */
-.navAbout, .navPortfolio, .navResume {
-    color: #ffffff;
+.nav-link {
+    color: #ffffff !important;
     font-family: Quattrocento;
 }
 
 .navbar-dark {
     font-family: Quatrrocento;
-    
 }
