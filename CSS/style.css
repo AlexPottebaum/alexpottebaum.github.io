@@ -15,8 +15,7 @@
     width: 65px;
     padding-left: 15px;
     font-family: Quattrocento, sans-serif;
-    font-size: 30px !important;
-    font-weight: bold;
+    font-size: 30px;
   }
 
   /* Navigation links */
@@ -29,18 +28,13 @@
     color: white !important;
   }
   
-/* Main Section */  
-.mainSection {
+/* Top Section */  
+.topSection {
   background-color: #1f1d1e;
   color: white;
 }
-
-.sharkPic {
-
-}
 /* make shark image change depending on screen size (ie small shark species for small screens and big species for big screens */
-
-/* Dumb Kenobi Gif */
+/* Top Section Gif */
 .btn-primary {
   color: white;
   background-color: #1f1d1e;
@@ -48,42 +42,46 @@
   margin-left: 15px;
   outline: none;
   border: none;
+  font-family: Lora, sans-serif;
+  font-size: 25px;
 }
-
+.btn-primary:hover {
+  background-color: #382e59;
+  outline: none;
+  border: none;
+}
 .modal-content {
   background-color: black;
 }
-.button-close {
-  size: auto;
+/* Top Section Text */
+.bodyText-1 ,.bodyText-2 {
+  margin-left: 25px;
+  padding-right: 20px;
+  font-family: Lora, sans-serif;
+}
+.bodyText-1 {
+  margin-top: 20px;
+}
+.bodyText-2 {
+  margin-bottom: 20px;
+}
+@media (min-width: 1000px) {
+  .bodyText-1 ,.bodyText-2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 999.99px) {
+  .bodyText-1 ,.bodyText-2 {
+    font-size: 18px;
+  }
 }
 
-a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Navigation .nav-link {
-    color: #ffffff !important;
-    font-family: Quattrocento;
-    justify-content: end;
+/* Card Section */
+.cardSection {
+background-color: #1f1d1e !important;
 }
-
-.customNav {
-    font-family: Quatrrocento;
-    background-color: #382e59;
-    color: #ffffff;
+.card {
+ margin: 25px;
+ justify-content: center;
+ padding: 25px;
 }
- */
