@@ -1,3 +1,4 @@
+/* Navigation Bar */
 .customNav {
     position: fixed;
     width: 100%;
@@ -7,37 +8,54 @@
   }
   .navbar-nav {
     margin-left: auto;
-    margin-right: 15px !important;
-    margin: 0px 15px;
+    margin-right: 44px;
   }
   .navbar-brand {
     padding-right: 15px;
     width: 65px;
     padding-left: 15px;
+    font-family: Quattrocento, sans-serif;
+    font-size: 30px !important;
+    font-weight: bold;
   }
 
-  
-  /* Navigation dropdown menu */
-  .dropdown-menu {
-    background-color: #382e59;
-    background-size: cover;
-  }
-  .dropdown-item:focus, .dropdown-item:hover {
-      color:#382e59;
-      text-decoration: white underline;
-      background: none;
-  }
-  
   /* Navigation links */
-  .customNav a {
+  .nav-link {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: 15px;
+    font-family: Quattrocento, sans-serif;
+    font-size: 24px;
     color: white !important;
   }
-  .navCTA {
-    font-size: auto;
-  }
+  
+/* Main Section */  
+.mainSection {
+  background-color: #1f1d1e;
+  color: white;
+}
 
+.sharkPic {
 
+}
+/* make shark image change depending on screen size (ie small shark species for small screens and big species for big screens */
 
+/* Dumb Kenobi Gif */
+.btn-primary {
+  color: white;
+  background-color: #1f1d1e;
+  margin-top: 50px;
+  margin-left: 15px;
+  outline: none;
+  border: none;
+}
+
+.modal-content {
+  background-color: black;
+}
+.button-close {
+  size: auto;
+}
 
 
 
